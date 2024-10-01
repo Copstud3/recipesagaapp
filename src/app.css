@@ -1,0 +1,10 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-image: 
+    linear-gradient(
+      111deg in oklch,
+      rgb(247% 240% 245%) 0%, rgb(245% 83% 83%) 24% 24%, rgb(245% 147% 79%) 58% 58%, rgb(94% 86% 90%) 89% 89%
+    )
+  ;
+}

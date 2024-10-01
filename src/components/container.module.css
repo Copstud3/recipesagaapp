@@ -1,0 +1,8 @@
+.parentContainer{
+    display: flex;
+}
+@media only screen and (max-width: 767px) {
+    .parentContainer{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,35 @@
+.welcomeText{
+    color: #272838;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+.logoName {
+    color:#6a7d19;
+    font-family: 'Lobster';
+    font-size: 50px;
+}
+.welcomeSubText{
+    color: #272838;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 70px;
+    font-weight: 500;
+    font-family: 'Open Sans';
+    margin-bottom: 70px;
+}
+@media only screen and (max-width: 767px) {
+    .welcomeText{
+        font-size: 27px;
+        margin-top: 10px;
+    }
+    .logoName{
+        font-size: 25px;
+    }
+    .welcomeSubText{
+        font-size: 17px;
+        margin: 0 30px;
+    }
+}

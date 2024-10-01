@@ -1,0 +1,40 @@
+.body{
+  padding: 50px 0;
+}
+.searchContainer {
+  margin: 30px auto;
+  position: relative;
+  width: max-content;
+}
+.input {
+  border: none;
+  border-bottom: 1px solid #e3e4dc;
+  padding: 20px 20px;
+  width: 500px;
+  font-size: 20px;
+  border-radius: 5px;
+  font-family: "Open Sans";
+}
+.input:focus{
+  outline: 2px solid #CC9735;
+}
+.searchText{
+  font-family: 'Open Sans';
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+  color: #272838;
+}
+@media only screen and (max-width: 767px) {
+  .searchText{
+    font-size: 15px;
+    margin: 50px 30px 10px 30px;
+    font-weight: 600;
+  }
+  .input{
+    width: 350px;
+    font-size: 16px;
+    padding: 15px;
+    margin-top: -50px;
+  }
+}
