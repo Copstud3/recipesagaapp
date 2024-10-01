@@ -1,6 +1,10 @@
 import { useEffect, useState, useRef } from "react";
 import styles from "./recipedetails.module.css";
 import ItemList from "./ItemList";
+import stopwatch from '../images/stopwatch-svgrepo-com.svg'
+import pizza from '../images/food-color-pizza-slice-svgrepo-com.svg'
+import mun from "../images/food-mun-thai-svgrepo-com.svg"
+import veg from "../images/vegetables-salad-svgrepo-com.svg"
 
 const API_KEY = import.meta.env.VITE_RECIPE_SAGA_API_KEY;
 
@@ -71,7 +75,7 @@ export default function RecipeDetails({ recipeId }) {
           <strong>
             <img
               className={styles.recipeDetailsclock}
-              src="../images/stopwatch-svgrepo-com.svg"
+              src={stopwatch}
             />
             <br />
             {note.readyInMinutes} Minutes
@@ -81,7 +85,7 @@ export default function RecipeDetails({ recipeId }) {
           <strong>
           <img
             className={styles.recipeDetailsImage}
-            src="\images\vegetables-salad-svgrepo-com.svg"
+            src={veg}
           />
           <br />
           Number of servings: {note.servings}
@@ -94,8 +98,8 @@ export default function RecipeDetails({ recipeId }) {
             className={styles.recipeDetailsImage}
             src={
               note.vegeterian
-                ? "\images\food-mun-thai-svgrepo-com.svg"
-                : "\images\food-color-pizza-slice-svgrepo-com.svg"
+                ? mun
+                : pizza
             }
           />
           <br />

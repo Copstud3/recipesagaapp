@@ -22,5 +22,9 @@
 @media only screen and (max-width: 767px) {
   .navContainer{
     width: 100vw;
+    height: 65px;
+  }
+  .navText{
+    font-size: 27px;
   }
 }
