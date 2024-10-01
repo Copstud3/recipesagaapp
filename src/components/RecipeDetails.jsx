@@ -81,7 +81,7 @@ export default function RecipeDetails({ recipeId }) {
           <strong>
           <img
             className={styles.recipeDetailsImage}
-            src="../images/vegetables-salad-svgrepo-com.svg"
+            src="\images\vegetables-salad-svgrepo-com.svg"
           />
           <br />
           Number of servings: {note.servings}
@@ -94,8 +94,8 @@ export default function RecipeDetails({ recipeId }) {
             className={styles.recipeDetailsImage}
             src={
               note.vegeterian
-                ? "../images/food-mun-thai-svgrepo-com.svg"
-                : "../images/food-color-pizza-slice-svgrepo-com.svg"
+                ? "\images\food-mun-thai-svgrepo-com.svg"
+                : "\images\food-color-pizza-slice-svgrepo-com.svg"
             }
           />
           <br />
