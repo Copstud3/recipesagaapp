@@ -49,8 +49,8 @@
 
 @media only screen and (max-width: 767px) {
    .recipeCard{
-    width: 300px;
-    margin-left: 5px;
+    width: 280px;
+    /* margin-left: 5px; */
     max-width: 100vw;
    }
    .recipeDetails{
