@@ -20,7 +20,7 @@
     font-family: 'Open Sans';
     margin-bottom: 70px;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
     .welcomeText{
         font-size: 27px;
         margin-top: 10px;

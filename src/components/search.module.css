@@ -25,7 +25,7 @@
   font-weight: 500;
   color: #272838;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   .searchText{
     font-size: 15px;
     margin: 50px 30px 10px 30px;
