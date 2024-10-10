@@ -50,15 +50,14 @@
 @media only screen and (max-width: 767px) {
    .recipeCard{
     width: 280px;
-    /* margin-left: 5px; */
     max-width: 100vw;
    }
    .recipeDetails{
      flex-wrap: wrap;
-     max-width: 100%;
+     max-width: 100vw;
    }
    .recipeInstructions{
     font-weight: 700;
-    max-width: 100%;
+    max-width: 100vw;
    }
 }
