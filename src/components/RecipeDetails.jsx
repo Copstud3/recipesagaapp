@@ -1,8 +1,8 @@
 import { useEffect, useState, useRef } from "react";
 import styles from "./recipedetails.module.css";
 import ItemList from "./ItemList";
-import stopwatch from "/images/stopwatch-svgrepo-com.svg"
-import pizza from "/images/food-color-pizza-slice-svgrepo-com.svg"
+import stopwatch from '/images/stopwatch-svgrepo-com.svg'
+import pizza from '/images/food-color-pizza-slice-svgrepo-com.svg'
 import mun from "/images/food-mun-thai-svgrepo-com.svg"
 import veg from "/images/vegetables-salad-svgrepo-com.svg"
 
