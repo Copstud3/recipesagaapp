@@ -6,6 +6,7 @@ import "./app.css";
 import Container from "./components/Container";
 import InnerContainer from "./components/InnerContainer";
 import RecipeDetails from "./components/RecipeDetails";
+import Footer from "./components/Footer";
 
 function App() {
   const [recipeData, setRecipeData] = useState([]);
@@ -26,6 +27,7 @@ function App() {
           <RecipeDetails recipeId={recipeId} />
         </InnerContainer>
       </Container>
+      <Footer />
     </>
   );
 }
