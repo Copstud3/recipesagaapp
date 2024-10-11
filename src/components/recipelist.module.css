@@ -1,7 +1,8 @@
 @media only screen and (max-width: 767px) {
-    .recipeListContainer{
-        margin-top: -90px;
-        margin-left: -7%;
-        width: 100vw;
-    }
+  .recipeListContainer {
+    margin-top: -90px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
 }

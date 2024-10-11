@@ -40,8 +40,9 @@
 }
 @media only screen and (max-width: 767px) {
   .itemContainer{
-    width: 300px;
-    margin-left: 12%;
+    width: 100%;
+    margin-left: auto;
+    margin-bottom: -10px;
   }
   .itemName{
     font-size: 15px;

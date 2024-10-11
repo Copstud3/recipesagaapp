@@ -9,8 +9,8 @@ html, body{
   ;
 }
 
-@media only screen and (max-width: 767px){
+/* @media only screen and (max-width: 767px){
   html, body{
-    width: 100vw;
+    max-width: 100vh;
   }
-}
+} */
