@@ -34,5 +34,6 @@
     }
     .welcomeContainer{
         max-width: 100vw;
+        margin-top: -15px;
     }
 }
